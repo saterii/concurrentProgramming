@@ -8,7 +8,7 @@ void setElements(int* arr1, int size)
     cout << "Entering thread..\n";
     for (int i = 0; i < size; ++i)
     {
-        arr1[i] = rand() % 1000;
+        arr1[i] = rand();
     }
     cout << "Exiting thread..\n";
 }
